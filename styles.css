@@ -1,0 +1,137 @@
+/* Styles for the CyberSec website */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+}
+
+nav {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#intro {
+    background-image: url('cyber.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#intro h2 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#intro p {
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#intro button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#intro button:hover {
+    background-color: #444;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#feature-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.feature {
+    width: 300px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
